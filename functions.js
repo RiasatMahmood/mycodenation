@@ -10,8 +10,19 @@
 
 // hello("Riasat","water")
 
-const multiply= (num1, num2) => {
-    return num1* num2
-}
+// const multiply= (num1, num2) => {
+//     return num1* num2
+// }
 
-console.log(multiply (2,5))
+// console.log(multiply (2,5))
+
+
+
+// higher order function
+
+const add = (num1) => {
+    return (num2) => {
+        return num1 + num2;
+    }
+}
+console.log(add(2)(2))

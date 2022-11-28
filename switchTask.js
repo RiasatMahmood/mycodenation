@@ -72,22 +72,22 @@
 
 // else {console.log(num)}
 
-// const time= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
-// //let time=
-// // let placeOfWork=CodeNation
-// //let townOfHome=Blackburn
-// //seconds in hour 3600
-// let currentTime=new Date()
-// const oneDay = (1000*60*60*24)
-// const oneHour = (oneDay/24) 
+const hourstime= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+let time=[]
+let placeOfWork="CodeNation"
+let townOfHome="Blackburn"
+// seconds in hour 3600
+let currentTime=new Date()
+const oneDay = (1000*60*60*24)
+const oneHour = (oneDay/24) 
 
-// console.log(currentTime)
-// console.log(oneDay)
-// console.log(oneHour)
+console.log(currentTime)
+console.log(oneDay)
+console.log(oneHour)
 
-// if (time> 9 && time <17) {
-//     console.log("at work")
-// }
+if (time> 9 && time <17) {
+    console.log("at work")
+}
 
 // let text = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi"
 // {console.log(text.lastIndexOf("a,e,i,o,u"))}
@@ -108,12 +108,12 @@
 // console.log(isPalidrome(str))
 
 
-const str = 'bo...b'
+// const str = 'bo...b'
 
-const isPalidrome = (inStr) =>{
-    inStr=inStr.replace(/\W/g,'')
-    inStr=inStr.toLowerCase()
+// const isPalidrome = (inStr) =>{
+//     inStr=inStr.replace(/\W/g,'')
+//     inStr=inStr.toLowerCase()
 
-    return inStr === inStr.split('').reverse().join('')
-}
-    console.log(isPalidrome(str))
+//     return inStr === inStr.split('').reverse().join('')
+// }
+//     console.log(isPalidrome(str))

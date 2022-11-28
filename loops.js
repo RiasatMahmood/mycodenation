@@ -33,7 +33,7 @@
 // }
 
 
-let generator 
-let = (Math.random()) *6
+// let generator 
+// let = (Math.random()) *6
 
-console.log(Math.random())
+// console.log(Math.random())
