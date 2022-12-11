@@ -26,6 +26,3 @@ const add = (num1) => {
     }
 }
 console.log(add(2)(2))
-
-
-fdfdx
